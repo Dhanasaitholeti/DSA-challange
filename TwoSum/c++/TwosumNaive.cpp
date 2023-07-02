@@ -6,7 +6,7 @@ vector<int> solveproblem( vector<int> nums , int tar) {
     int len = nums.size();
 
     for(int i=0; i<len ; i++){
-        for(int j=i ; j<len;j++){
+        for(int j=i+1; j<len; j++){
             if(nums[i]+nums[j] == tar){
                 return {i,j};
             }
@@ -16,8 +16,8 @@ vector<int> solveproblem( vector<int> nums , int tar) {
 }
 
 int main() {
-    vector<int> arr = {2,10,5,7,11,15};
-    int target = 55;
+    vector<int> arr = {3,2,4};
+    int target = 7;
     vector<int> sol =  solveproblem(arr,target);
     for(int i : sol){
         cout << i<< " ";
