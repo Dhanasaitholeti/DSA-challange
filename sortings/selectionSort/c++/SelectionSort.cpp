@@ -3,12 +3,13 @@
 
 using namespace std;
 
-vector<int> SelectionSort(vector<int>& arr){
+vector<int> SelectionSort(vector<int> arr){
     for(int i=0;i<arr.size()-1;i++){
-        int min = arr[i];
-        for(int j=i+1;j<arr.size();j++){
-            if(arr[j] < min){
-                min = arr[j];
+        for(int j=i;j<arr.size();j++){
+            if(arr[i]>arr[j]){
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
             }
         }
     }
