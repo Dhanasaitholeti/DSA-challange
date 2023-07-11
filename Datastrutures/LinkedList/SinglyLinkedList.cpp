@@ -12,6 +12,7 @@ class Node{
 class LList{
     public:
     Node* head;
+
     LList(): head(nullptr) {}
 
     void append(int x){
@@ -35,6 +36,34 @@ class LList{
         head = newnode;
     }
 
+    void removeAtFirst() {
+        Node* current = head;
+        head  = current->Next;
+        delete current;     
+    }
+
+    void removeAtLast(){
+        Node* current = head;
+        while(current->Next->Next!= nullptr){
+            current = current->Next;
+        }
+        Node* Temp = current->Next->Next;
+        current->Next = nullptr;
+        delete Temp;
+    }
+
+    void deleteAtPosition(int pos){
+        int count = 1;
+        Node* current = head;
+        while(count != pos){
+            current = current->Next;
+            count++; 
+        }
+        Node* Temp = current->Next;
+        current->Next = current->Next->Next;
+        delete Temp;
+
+    }
 
     void display(){
         Node* current = head;
@@ -45,9 +74,6 @@ class LList{
 
     }
 
-
-
-
 };
 
 
@@ -57,7 +83,12 @@ int main(){
     List.append(65);
     List.append(78);
     List.prepend(77);
+    List.removeAtFirst();
     List.append(5);
+    List.removeAtLast();
+    List.append(99);
+    List.deleteAtPosition(2);
+    List.append(65);
     List.display();
     return 0;
 }
