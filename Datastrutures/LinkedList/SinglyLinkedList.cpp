@@ -12,10 +12,10 @@ class Node{
 class LList{
     public:
     Node* head;
-
     LList(): head(nullptr) {}
 
     void append(int x){
+        
         Node* newnode = new Node(x);
 
         if(head == nullptr){
@@ -28,6 +28,19 @@ class LList{
                 current = current->Next;
         }
         current->Next = newnode; 
+    }
+
+    void addAtPosition(int pos,int val){
+        Node* newnode = new Node(val);
+        Node* current = head;
+        int count = 1;
+        while(count != pos){
+            current = current->Next;
+            count++;
+        }
+        Node* Temp = current->Next;
+        current -> Next = newnode;
+        newnode->Next = Temp;
     }
 
     void prepend(int x){
@@ -83,12 +96,10 @@ int main(){
     List.append(65);
     List.append(78);
     List.prepend(77);
-    List.removeAtFirst();
     List.append(5);
-    List.removeAtLast();
     List.append(99);
-    List.deleteAtPosition(2);
     List.append(65);
+    List.addAtPosition(1,23);
     List.display();
     return 0;
 }
