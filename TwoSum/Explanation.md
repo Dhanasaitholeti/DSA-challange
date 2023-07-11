@@ -8,7 +8,7 @@ You may assume that each input would have exactly one solution, and you may not 
 You can return the answer in any order.
 ```
 
-### Normal Method:
+### Normal Method approach:
 
 In this method we try to bruteforce it we iterate through all the element twice and check whether they add up to target
 
@@ -20,7 +20,7 @@ or it the loop over with finding any pair we return empty array.
 
 It is taking `O(n^2)` as it is iterating over the elements 2 times;
 
-### optimized method:
+### optimized method approach:
 
 In this method we are using the Hashmaps
 

@@ -30,4 +30,10 @@ On Day 3 I solved a easy level leetcode problem called LongestCommonPrefix in C+
 
 you can find the solution in `LongestCommmonPrefix`.
 
+## DAY 4:
+
+on Day 4 I solved a easy level leetcode problem called `CheckifPangram`. Pangram is a string which consists all the letter in the alphabets atleast once.
+
+check out the `Pangram` directory for the solution
+
 <h1 align="center">Thank You :)</h1>
