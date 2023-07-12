@@ -36,4 +36,10 @@ on Day 4 I solved a easy level leetcode problem called `CheckifPangram`. Pangram
 
 check out the `Pangram` directory for the solution
 
+## DAY 5:
+
+on Day 5 I learned about the singlyLinkedList and Implemented it in C++ from scratch.
+
+Checkout the `Datastructures/LinkedList` directory for the code.
+
 <h1 align="center">Thank You :)</h1>
