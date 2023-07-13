@@ -15,14 +15,11 @@ class LList{
     LList(): head(nullptr) {}
 
     void append(int x){
-        
         Node* newnode = new Node(x);
-
         if(head == nullptr){
             head = newnode;
             return;
         } 
-
         Node* current = head;
         while(current->Next != nullptr){
                 current = current->Next;
@@ -75,7 +72,6 @@ class LList{
         Node* Temp = current->Next;
         current->Next = current->Next->Next;
         delete Temp;
-
     }
 
     void display(){
@@ -84,9 +80,8 @@ class LList{
             cout << current->Data << " ";
             current = current->Next;
         }
-
     }
-
+    
 };
 
 
