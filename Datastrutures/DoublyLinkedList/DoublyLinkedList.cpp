@@ -36,6 +36,7 @@ class DoubleLList{
             current = current->next;
         }
         Node* Temp = current;
+        current = current->prev;
         current->next = nullptr;
         delete Temp;
     }
@@ -60,6 +61,9 @@ int main(){
     list.push(15);
     list.push(20);
     list.push(85);
+    list.pop();
+    list.push(100);
+    list.push(10);
     list.pop();
     list.display();    
     return 0;
