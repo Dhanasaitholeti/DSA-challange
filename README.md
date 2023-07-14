@@ -42,4 +42,16 @@ on Day 5 I learned about the singlyLinkedList and Implemented it in C++ from scr
 
 Checkout the `Datastructures/LinkedList` directory for the code.
 
+## DAY 6:
+
+on Day 6 I learned about doubly linked list and implemnted some of the features and also implemented tail node for efficient insetiion and deletion.
+
+checkout the `Datastructures/DoublyLinkedlist` directoy for the implementation.
+
+## DAY 7:
+
+on Day 7 I solved a easy leeetcode problem called `SearchIndexPostition` in Both `C++ using Binary search` (effiecinet manner) and `Js using while loop`.
+
+you can find the solution in `SearchInserPos` directory.
+
 <h1 align="center">Thank You :)</h1>
