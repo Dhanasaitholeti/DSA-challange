@@ -12,19 +12,29 @@ class Node{
 class LList{
     public:
     Node* head;
-    LList(): head(nullptr) {}
+    Node* tail;
+    LList(): head(nullptr),tail(nullptr) {}
 
-    void append(int x){
+    void append(int x){ //pushes to the list with O(n) complexity
         Node* newnode = new Node(x);
         if(head == nullptr){
             head = newnode;
+            tail = newnode;
             return;
         } 
         Node* current = head;
         while(current->Next != nullptr){
                 current = current->Next;
         }
-        current->Next = newnode; 
+        current->Next = newnode;
+        tail = newnode;
+    }
+
+    void pushBack(int x){ // pushes to the list with O(1) complexity
+        Node* newNode = new Node(x);
+        Node* current = tail;
+        tail->Next = newNode;
+        tail = tail->Next;
     }
 
     void addAtPosition(int pos,int val){
@@ -89,12 +99,8 @@ int main(){
     LList List;
     List.append(45);
     List.append(65);
-    List.append(78);
     List.prepend(77);
-    List.append(5);
-    List.append(99);
-    List.append(65);
-    List.addAtPosition(1,23);
+    List.pushBack(78);
     List.display();
     return 0;
 }
