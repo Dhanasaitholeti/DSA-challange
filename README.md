@@ -54,4 +54,10 @@ on Day 7 I solved a easy leeetcode problem called `SearchIndexPostition` in Both
 
 you can find the solution in `SearchInserPos` directory.
 
+## DAY 8:
+
+on Day 9 I Learnt about `MergeSort` and Implemented in `c++` and `Js`. It is one of the most efficient sorting algorithm with `O(nlogn)` time complexity.
+
+you can find the Implementation in `sortings/MergeSort` directory.
+
 <h1 align="center">Thank You :)</h1>
