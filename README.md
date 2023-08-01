@@ -62,7 +62,7 @@ you can find the Implementation in `sortings/MergeSort` directory.
 
 ## DAY 9:
 
-on Day 9 I solved \_\_ problems on leetcode in both `C++` and `Js` in most efficient ways.
+on Day 9 I solved `removeElement`,`removeDuplicateFromSortedArray`,`removeElementsFromSortedArrayII` problems on leetcode in both `C++` and `Js` in most efficient ways.
 
 you can find the Implementation in their respective directories.
 
