@@ -66,4 +66,10 @@ on Day 9 I solved `removeElement`,`removeDuplicateFromSortedArray`,`removeElemen
 
 you can find the Implementation in their respective directories.
 
+## DAY 10:
+
+on Day 10 I solved `Rotate Array`,`majorityElement` problems on leetcode in both `C++` and `Js` in bruteforce and efficient ways
+
+you can find the solution for the given problems in their respective directories.
+
 <h1 align="center">Thank You :)</h1>
