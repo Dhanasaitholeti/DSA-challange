@@ -72,4 +72,22 @@ on Day 10 I solved `Rotate Array`,`majorityElement` problems on leetcode in both
 
 you can find the solution for the given problems in their respective directories.
 
+## DAY 11:
+
+on Day 11 I solved `Best Time To Buy Sell Stock`,`Best Time To Buy Sell Stock II` problems on leetcode in Both `C++` and `JS` in brute force and efficient ways.
+
+you can find the solution for the given problems in their respective directories.
+
+## DAY 12:
+
+on Day 12 I solved `Length of Last String problem` problem on leetcode in `C++` and `JavaScript` in efficient way
+
+you can find the solution for the given problems in their respective directories.
+
+## DAY 13:
+
+on Day 13 I solved `JumpGame`,`Find the first occurence in a string` on leetcode in `C++` and `JavaScript`.
+
+you can find the solution for the given problems in their respective directories.
+
 <h1 align="center">Thank You :)</h1>
