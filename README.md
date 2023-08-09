@@ -86,8 +86,27 @@ you can find the solution for the given problems in their respective directories
 
 ## DAY 13:
 
-on Day 13 I solved `JumpGame`,`Find the first occurence in a string` on leetcode in `C++` and `JavaScript`.
+on Day 13 I solved `Find the first occurence in a string` on leetcode in `C++` and `JavaScript`.
 
 you can find the solution for the given problems in their respective directories.
+
+## DAY 14:
+
+on Day 14 I solved `Search in 2D array`,`JumpGame` on leetcode in `C++` and `Javascript`.
+
+you can find the solution for the given problems in their respective directories.
+
+## DAY 15:
+
+on Day 15 I solved `Search In Rotated Array` on leetcode in both `C++` and `JS.`
+
+you can find the solution in respective directories.
+
+## DAY 16:
+
+on Day 16 I solved `JumpGame II` on leetcode in both `C++`,`Javascript`.
+
+you can find the solution in respective directories.  
+
 
 <h1 align="center">Thank You :)</h1>
