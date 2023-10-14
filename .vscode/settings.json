@@ -3,6 +3,7 @@
     "iostream": "cpp",
     "algorithm": "cpp",
     "cmath": "cpp",
-    "unordered_map": "cpp"
+    "unordered_map": "cpp",
+    "typeinfo": "cpp"
   }
 }
