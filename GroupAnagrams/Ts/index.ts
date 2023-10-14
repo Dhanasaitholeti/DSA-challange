@@ -1,0 +1,16 @@
+const strs = [
+  "eat",
+  "tea",
+  "tan",
+  "ate",
+  "nat",
+  "bat",
+  "ac",
+  "bd",
+  "aac",
+  "bbd",
+  "aacc",
+  "bbdd",
+  "acc",
+  "bdd",
+];
